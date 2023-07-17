@@ -72,10 +72,7 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+
   {
     name: "React JS",
     icon: reactjs,
@@ -96,28 +93,17 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
+    company_name: "Sunlife Solar",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
@@ -128,22 +114,10 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+
   {
     title: "Web Developer",
-    company_name: "Shopify",
+    company_name: "AQ Software House",
     icon: shopify,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
@@ -156,7 +130,7 @@ const experiences = [
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
+    company_name: "Delta Software House",
     icon: meta,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
@@ -172,56 +146,50 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I thought it was impossible to make a website as beautiful as our product, but Qaiser proved me wrong.",
+    name: "Mubashir Hassan",
+    designation: "Full Stcak Devloper",
+    company: "Delta Software",
+    image:
+      "https://pbs.twimg.com/profile_images/1670145026326769664/NgtwUICO_400x400.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "I've never met a web developer who truly cares about their clients' success like Qaiser does.",
+    name: "Najam Iftikhar",
+    designation: "Developer",
+    company: "AQ Software House",
+    image:
+      "https://pbs.twimg.com/profile_images/1148197502690217985/BwvtvzUI_400x400.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Roll Dice Game",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that entertain people when they are getting bored.This is a game that can be played between two players but at the same device. This game check your patience to hold dice and reaches to 100 points first and won the game",
     tags: [
       {
-        name: "react",
+        name: "JavaScript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "CSS",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
+        name: "Html",
+        color: "orange-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/qjcoder",
+    source_code_link: "https://github.com/qjcoder/dice-game-qjcoder",
   },
   {
-    name: "Job IT",
+    name: "Movie Search Application",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This application is used to fecth movie and tv shows based on their ratings. Movies and Tv shows are available based on different categories like trending, top rated and popular Watch trailer of fetch movie or tv show. Filter movie or tv show based on type.",
     tags: [
       {
         name: "react",
@@ -237,28 +205,28 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/qjcoder",
+    source_code_link: "https://github.com/qjcoder/movix",
   },
   {
-    name: "Trip Guide",
+    name: "Food Recipe",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Recipe application with custom recipe uploads. With this application you can find ingrediendts, quantity and duration to prepare a food. Also already prepared foods can be found by clicking on get directions button. ",
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
+        name: "JavaScript",
+        color: "yellow-text-gradient",
       },
       {
-        name: "supabase",
+        name: "restapi",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "scss",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/qjcoder",
+    source_code_link: "https://github.com/qjcoder/forkify-Application",
   },
 ];
 
