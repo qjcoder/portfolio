@@ -131,8 +131,8 @@ const testimonials = [
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Qaiser proved me wrong.",
     name: "Mubashir Hassan",
-    designation: "Full Stcak Devloper",
-    company: "Delta Software",
+    designation: "MERN Stcak Devloper",
+    company: "Algo Allaince",
     image:
       "https://pbs.twimg.com/profile_images/1670145026326769664/NgtwUICO_400x400.jpg",
   },
@@ -140,8 +140,8 @@ const testimonials = [
     testimonial:
       "I've never met a web developer who truly cares about their clients' success like Qaiser does.",
     name: "Najam Iftikhar",
-    designation: "Developer",
-    company: "AQ Software House",
+    designation: "Full StackDeveloper",
+    company: "Fiverr",
     image:
       "https://pbs.twimg.com/profile_images/1148197502690217985/BwvtvzUI_400x400.jpg",
   },
